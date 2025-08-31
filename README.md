@@ -17,22 +17,6 @@
 - **Detection**
   - Object detection with **DETR** (COCO-style annotations)  
 - **Interpretability**
-  - **Attention rollout** heatmaps to visualize where the transformer is “looking”  
-
----
-
-## Project Structure
-vision-transformer-automotive/
-│
-├── notebooks/
-│ ├── 01_Assignment2_Transformers_solution.ipynb # original assignment
-│ ├── 02_ViT_Automotive.ipynb # ViT on GTSRB / Cars + attention
-│ └── 03_DETR_Automotive.ipynb # DETR object detection
-│
-├── src/
-│ └── viz/attention_rollout.py # attention rollout utility
-├── requirements.txt
-├── README.md
-└── .gitignore
-
+  - **Attention rollout** heatmaps to visualize where the transformer is “looking”
+    
 
