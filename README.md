@@ -19,4 +19,18 @@
 - **Interpretability**
   - **Attention rollout** heatmaps to visualize where the transformer is “looking”
     
+"ROBUSTNESS TO ADVERSE CONDITIONS"
+Evaluated ViT on GTSRB under synthetic anomalies (fog,rain,blur,brightness,shifts):
+| Setting   | Accuracy |
+|-----------|----------|
+| Clean     | 0.548    |
+| Augmented | 0.326    |
+| Δ (drop)  | −0.223   |
 
+We also sweep augmentation **severity (1–5)**:
+
+<p align="center">
+  <img src="docs/robustness_gtsrb.png" width="500"/>
+</p>
+
+*Augmentations implemented with Albumentations; images are kept uint8 and then normalized by the HF processor.*
