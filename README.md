@@ -18,8 +18,9 @@
   - Object detection with **DETR** (COCO-style annotations)  
 - **Interpretability**
   - **Attention rollout** heatmaps to visualize where the transformer is “looking”
-    
-"ROBUSTNESS TO ADVERSE CONDITIONS"
+
+**ROBUSTNESS TO ADVERSE CONDITIONS** 
+
 Evaluated ViT on GTSRB under synthetic anomalies (fog,rain,blur,brightness,shifts):
 | Setting   | Accuracy |
 |-----------|----------|
