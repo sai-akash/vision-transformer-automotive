@@ -30,7 +30,7 @@ Evaluated ViT on GTSRB under synthetic anomalies (fog,rain,blur,brightness,shift
 We also sweep augmentation **severity (1–5)**:
 
 <p align="center">
-  <img src="docs/robustness_gtsrb.png" width="500"/>
+  <img src="notebooks/results/robustness_gtsrb.png" width="500"/>
 </p>
 
 *Augmentations implemented with Albumentations; images are kept uint8 and then normalized by the HF processor.*
